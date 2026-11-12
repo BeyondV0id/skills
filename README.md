@@ -22,7 +22,7 @@ My own skills are junctioned into `~/.agents/skills`, not copied. Below: what I 
 | `tailwind-design-system` | Tokens, components, responsive with Tailwind v4 | [wshobson](https://github.com/wshobson) | [github.com/wshobson/agents](https://github.com/wshobson/agents) |
 | `reanimate` | Clone a reference animation, verified frame by frame | Niaz Morshed (MIT) | Not published |
 
-[raphaelsalaja/skills](https://github.com/raphaelsalaja/skills) (MIT, (c) 2026 Raphael Salaja) no longer lives in `~/.agents/skills`. Three of his skills are vendored inside [`design/`](skills/design/) as `reuse/`, `viewports/` and `alignment/`, with their upstream LICENSE files; the `alignment` copy here keeps your local `report.html`. The rest of the collection (`audit`, `color`, `deconstruct`, `defaults`, `frames`, `gather`, `keyboard`) is not in this repo and is gone from `~/.agents/skills`.
+[raphaelsalaja/skills](https://github.com/raphaelsalaja/skills) (MIT, (c) 2026 Raphael Salaja) no longer lives in `~/.agents/skills`. Three of his skills are vendored in this repo under `skills/` as `reuse/`, `viewports/` and `alignment/`, with their upstream LICENSE files; the `alignment` copy here keeps your local `report.html`. The rest of the collection (`audit`, `color`, `deconstruct`, `defaults`, `frames`, `gather`, `keyboard`) is not in this repo and is gone from `~/.agents/skills`.
 
 ## Setup
 

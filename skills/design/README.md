@@ -16,16 +16,18 @@ One skill, `design`, covering how I build every page: the order of work, the lay
 ## Files
 
 ```
-skills/design/
-  SKILL.md                the entry point - read this first
-  button.md               component spec, pulled in on demand
-  README.md               this file
-  reuse/                  vendored from raphaelsalaja/skills (MIT, (c) 2026 Raphael Salaja)
-  viewports/              vendored from raphaelsalaja/skills
-  alignment/              vendored from raphaelsalaja/skills (keeps your local report.html)
+skills/
+  design/
+    SKILL.md                the entry point - read this first
+    button.md               component spec, pulled in on demand
+    README.md               this file
+  reuse/                    vendored from raphaelsalaja/skills (MIT, (c) 2026 Raphael Salaja)
+  viewports/                vendored from raphaelsalaja/skills
+  alignment/                vendored from raphaelsalaja/skills (keeps your local report.html)
+  go-or-stop/               the ship-call skill
 ```
 
-The `SKILL.md` is the only file loaded by the agent until a reference is cited; `button.md` stays out of context until the page needs buttons. The three vendored folders are third-party skills kept for reference inside this skill; they are not separately loaded.
+`SKILL.md` is the only file loaded by the agent until a reference is cited; `button.md` stays out of context until the page needs buttons. The three vendored folders at `skills/` are third-party skills kept in this repo, not separately junctioned; `alignment/report.html` is your local build, not upstream's.
 
 ## Rule prefixes
 
