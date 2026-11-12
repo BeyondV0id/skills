@@ -3,8 +3,8 @@
 Personal AI-agent skills, junctioned into `~/.agents/skills` so they load with the installed collection. Folders here are linked, not copied; edits in place apply immediately.
 
 ```
-frontend/          The one skill I authored - everything UI, in one place
-                   (see frontend/README.md)
+frontend/          Everything UI in one skill (see frontend/README.md)
+release-check/     Go or no-go before a ship (see its SKILL.md)
 ```
 
 The table below lists the installed skills I use alongside it, with sources where they are known.
@@ -14,6 +14,7 @@ The table below lists the installed skills I use alongside it, with sources wher
 | Skill | Covers | Source |
 | --- | --- | --- |
 | `frontend` | Brief, order of work, layout, loading/empty/error, reuse of parts and tokens, interface words, sidebar spec | This repo |
+| `release-check` | Go or no-go before a ship: diff, tests, migrations, flags, risks, watch signals, rollback | This repo |
 
 ## Emil Kowalski, `animations.dev`
 
