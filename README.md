@@ -32,7 +32,7 @@ My own skills are junctioned into `~/.agents/skills`, not copied. Below: what I 
 | `viewports` | Renders a page at every width, breakpoint edges, short landscape phone, 200% text | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
 | `reanimate` | Clone a reference animation, verified frame by frame | Niaz Morshed (MIT) | Not published |
 
-The eight `alignment` through `keyboard` share one house style (numbered rule IDs, severities, "Rule | Count | Severity"). No author or repo is recorded in any of their files; `unslop` (Damir Sokolovsky) shares the same report format, so they may come from the same place, but I could not verify that.
+The eight `alignment` through `keyboard`, plus `reuse` and `viewports` installed here, are from [raphaelsalaja/skills](https://github.com/raphaelsalaja/skills) (MIT, (c) 2026 Raphael Salaja). Their `agents/openai.yaml` files ship with each skill. `alignment` is installed and identical to upstream except for its generated `report.html` (yours is the smaller one); it was not overwritten.
 
 ## Other skills
 
