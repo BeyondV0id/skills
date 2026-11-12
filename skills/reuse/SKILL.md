@@ -7,11 +7,11 @@ description: Reaches for the project's own components, then a maintained library
 
 This skill sets the order for building anything new. The project's own parts come first, then a maintained library or a platform feature. Custom code comes last.
 
+Adapted from raphaelsalaja/skills (MIT, (c) 2026 Raphael Salaja).
+
 ## A duplicate is a finding
 
 A new component, style or icon that duplicates one the project already has is a finding. Adding a primitive to the shared package and then using it is not. A project with no shared package is judged on the libraries it already depends on.
-
-Cutting what nobody asked for belongs to `restraint`. Copying an outside app belongs to `match`.
 
 ## The project's parts come first
 
@@ -41,32 +41,14 @@ Read a primitive's documentation before using it, and use its current APIs. A gu
 
 ## Icons from the set, at native size
 
-Use the project's icon set at the size it was drawn for. A generated SVG, or an `18px` icon scaled to `12px`, is `reuse-icon-set-native-size`. A glyph the set lacks, drawn by `icons` and added to the shared icon package or folder, is not a finding.
+Use the project's icon set at the size it was drawn for. A generated SVG, or an `18px` icon scaled to `12px`, is `reuse-icon-set-native-size`. A glyph the set lacks, drawn at native size and added to the shared icon package or folder, is not a finding.
 
-## The pair
+## Report
 
-Every check is a pair. The broken line sits beside the line that replaces it.
-
-| Rule | Broken | Replacement |
-| --- | --- | --- |
-| `reuse-house-component-first` | `<input className={styles.search} />` | The project's `<Input />` |
-| `reuse-no-local-restyle` | `.menu { border-radius: 6px }` beside the shared `Menu` | `Menu` as shipped |
-| `reuse-one-standard` | Three dropdown styles on three screens | One `Menu` |
-| `reuse-fix-in-the-primitive` | A scroll fade added at five call sites | The fade inside `ScrollArea` |
-| `reuse-sweep-siblings` | The cited line fixed, its siblings left | Every sibling fixed, files listed |
-| `reuse-library-before-custom` | A hand-written relative date formatter | `Intl.RelativeTimeFormat` |
-| `reuse-no-stale-dependency` | An unmaintained package installed | Its pattern ported into the project |
-| `reuse-read-the-docs` | `render={<button />}` on a trigger that is already a button | The prop the docs describe, or none |
-| `reuse-icon-set-native-size` | An `18px` icon at `width: 12px` | The `12px` icon from the set |
-
-## Reporting
-
-**Severity.** `HIGH` is a duplicate of an existing shared component, or a hand-built control a primitive covers. `MEDIUM` is a local restyle, an icon from outside the set or a shared fix applied at one call site. `LOW` is a library chosen without checking that it is maintained.
-
-**Format.** One finding per root cause:
+One finding per root cause:
 
 ```
 file:line - [rule-id] what is wrong
 ```
 
-Then a `Rule | Count | Severity` summary. `Block` when any `HIGH` remains, `Approve` otherwise. Never `Approve` a file you did not read. Mark every check you could not run as `Not verified`.
+Then a `Rule | Count | Severity` summary. Never `Approve` a file you did not read. Mark every check you could not run as `Not verified`.
