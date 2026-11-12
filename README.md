@@ -36,7 +36,7 @@ The eight `alignment` through `keyboard` share one house style (numbered rule ID
 
 | Skill | Covers | Author | Link |
 | --- | --- | --- | --- |
-| [`release-check`](other-skills/release-check/) | Go or no-go before a ship: diff, tests, migrations, flags, watch signals, rollback | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
+| [`go-or-stop`](other-skills/go-or-stop/) | Go or no-go before a ship: diff, tests, migrations, flags, watch signals, rollback | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
 | `performance-optimization` | Frontend/backend/query/db perf work | [addyosmani](https://github.com/addyosmani) (Addy Osmani) | [github.com/addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | `better-auth-best-practices` | Auth setup with Better Auth | [Better Auth](https://better-auth.com) | [github.com/better-auth/skills](https://github.com/better-auth/skills) |
 | `create-auth` | Scaffold auth in a TypeScript app | [Better Auth](https://better-auth.com) | [github.com/better-auth/skills](https://github.com/better-auth/skills) |

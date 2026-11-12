@@ -1,5 +1,5 @@
 ---
-name: release-check
+name: go-or-stop
 description: Use when asked if a change is ready to ship, or for a go or no-go. Not for deploying. Reviews the diff, tests, migrations, flags, dependencies and known risks, and answers go or no-go with reasons, watch signals and rollback steps.
 ---
 
