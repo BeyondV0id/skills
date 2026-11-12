@@ -8,7 +8,7 @@ My own skills are junctioned into `~/.agents/skills`, not copied. Below: what I 
 
 | Skill | Covers | Author | Link |
 | --- | --- | --- | --- |
-| [`frontend`](frontend/) | Brief, order of work, layout, loading/empty/error, reuse, words, sidebar, buttons | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
+| [`frontend`](skills/frontend/) | Brief, order of work, layout, loading/empty/error, reuse, words, sidebar, buttons | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
 | `awwwards` | Award-caliber sites from one line | [juliobsz](https://github.com/juliobsz) (MIT) | [github.com/juliobsz/skills](https://github.com/juliobsz/skills) |
 | `jury` | Scores a site like a jury would | [juliobsz](https://github.com/juliobsz) (MIT) | [github.com/juliobsz/skills](https://github.com/juliobsz/skills) |
 | `unslop` | Turns "AI slop" UI into designed UI | [Damir Sokolovsky](https://heydamir.design/unslop) ([@heydamir](https://x.com/heydamir), CC-BY-4.0) | [heydamir.design/unslop](https://heydamir.design/unslop) |
@@ -36,7 +36,7 @@ The eight `alignment` through `keyboard` share one house style (numbered rule ID
 
 | Skill | Covers | Author | Link |
 | --- | --- | --- | --- |
-| [`go-or-stop`](other-skills/go-or-stop/) | Go or no-go before a ship: diff, tests, migrations, flags, watch signals, rollback | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
+| [`go-or-stop`](skills/go-or-stop/) | Go or no-go before a ship: diff, tests, migrations, flags, watch signals, rollback | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
 | `performance-optimization` | Frontend/backend/query/db perf work | [addyosmani](https://github.com/addyosmani) (Addy Osmani) | [github.com/addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | `better-auth-best-practices` | Auth setup with Better Auth | [Better Auth](https://better-auth.com) | [github.com/better-auth/skills](https://github.com/better-auth/skills) |
 | `create-auth` | Scaffold auth in a TypeScript app | [Better Auth](https://better-auth.com) | [github.com/better-auth/skills](https://github.com/better-auth/skills) |
@@ -49,7 +49,7 @@ The eight `alignment` through `keyboard` share one house style (numbered rule ID
 Folders here are junctioned into `~/.agents/skills`, not copied; edits apply immediately.
 
 ```powershell
-New-Item -ItemType Junction -Path "$env:USERPROFILE\.agents\skills\<name>" -Target "D:\SKILLS\<parent>\<name>"
+New-Item -ItemType Junction -Path "$env:USERPROFILE\.agents\skills\<name>" -Target "D:\SKILLS\skills\<name>"
 ```
 
 Restart OpenCode after adding or removing a skill. To unlink: `cmd /c rmdir "<junction path>"`.

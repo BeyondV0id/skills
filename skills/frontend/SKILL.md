@@ -20,7 +20,7 @@ Who reads this page, what single action it exists to produce, and the one thing 
 3. **Copy first.** Headline, subline, buttons, three feature titles, one proof point, the empty and error states. Write the longest plausible string for every field. Lorem is `page-lorem`.
 4. **Wireframe.** Number the sections, give each a job and one action, then sketch the first screen and the densest screen. If two sections can swap without changing the reading, one is redundant.
 5. **Tokens.** Type scale, spacing scale, colour roles, radii, three elevations, two durations and one curve. Everything you use later has a name. Contrast passes here, not afterwards.
-6. **Build.** Shell and grid, then sections in reading order, one complete at a time. Build a component the second time it is needed, not the first (`page-components-first`). Then states, then details. Button finishes, both of them, live in [components/buttons.md](components/buttons.md).
+6. **Build.** Shell and grid, then sections in reading order, one complete at a time. Build a component the second time it is needed, not the first (`page-components-first`). Then states, then details. Button finishes, both of them, live in [button.md](button.md).
 7. **States.** Default, hover, focus-visible, active, disabled, selected, invalid, loading, empty, error, success. Plus long content, 320px, dark mode, reduced motion, slow network.
 8. **QA.** Widths 320, 375, 768, 1024, 1280, 1536 and 200% zoom. Keyboard through the whole page, contrast in both themes, no shift when fonts or images land, every string read aloud.
 
