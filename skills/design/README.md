@@ -1,6 +1,6 @@
-# Frontend
+# Design
 
-One skill, `frontend`, covering how I build every page: the order of work, the layout rules, all the states, reuse of existing parts and tokens, and the words on screen.
+One skill, `design`, covering how I build every page: the order of work, the layout rules, all the states, reuse of existing parts and tokens, and the words on screen.
 
 ## What it covers
 
@@ -16,7 +16,7 @@ One skill, `frontend`, covering how I build every page: the order of work, the l
 ## Files
 
 ```
-skills/frontend/
+skills/design/
   SKILL.md                the entry point - read this first
   button.md               component spec, pulled in on demand
   README.md               this file
@@ -39,4 +39,4 @@ Motion (`animate`), contrast and dark mode (`color`), component defaults (`defau
 
 1. Add `components/<name>.md` or `<name>.md` following the button format: what it is, exact values, every state, choosing-rules, labels.
 2. Cite it from `SKILL.md` where the order step uses it.
-3. Commit. The junction in `~/.agents/skills/frontend` picks the file up without another link.
+3. Commit. The junction in `~/.agents/skills/design picks the file up without another link.

@@ -1,9 +1,9 @@
 ---
-name: frontend
+name: design
 description: Builds and reviews a page end to end - the order to work in, layout and measure, loading, empty and error states, reusing existing parts and tokens, and the words. Use when building or fixing a page, landing page, dashboard or app screen, when a layout feels cramped or generic, when adding loading or empty states, when reaching for a new component, colour or icon, or when writing labels and status text.
 ---
 
-# Frontend
+# Design
 
 A page is finished when it reads in the right order at every width and looks like the same product made it. That means one job per page, real words, a layout that holds, states that exist, parts that already exist, and labels that say what happens.
 

@@ -109,4 +109,4 @@ On touch, both keep their drawn height and expand the hit area to 44px, as the s
 
 ## Labels
 
-Title Case, verb first, object after: "Add Team Member", "Send Invite". The button names the result, not the mechanism, so "Submit" and "Confirm" are findings. One term per action across the product: Cancel, Close, Dismiss. All of this is the Words section of `frontend`; the button just has to obey it.
+Title Case, verb first, object after: "Add Team Member", "Send Invite". The button names the result, not the mechanism, so "Submit" and "Confirm" are findings. One term per action across the product: Cancel, Close, Dismiss. All of this is the Words section of `design`; the button just has to obey it.
