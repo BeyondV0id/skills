@@ -24,7 +24,7 @@ skills/
   reuse/                    vendored from raphaelsalaja/skills (MIT, (c) 2026 Raphael Salaja)
   viewports/                vendored from raphaelsalaja/skills
   alignment/                vendored from raphaelsalaja/skills (keeps your local report.html)
-  go-or-stop/               the ship-call skill
+  do-or-stop/              the ship-call skill
 ```
 
 `SKILL.md` is the only file loaded by the agent until a reference is cited; `button.md` stays out of context until the page needs buttons. The three vendored folders at `skills/` are third-party skills kept in this repo, not separately junctioned; `alignment/report.html` is your local build, not upstream's.

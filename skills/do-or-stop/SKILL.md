@@ -1,9 +1,9 @@
 ---
-name: go-or-stop
+name: do-or-stop
 description: Use when asked if a change is ready to ship, or for a go or no-go. Not for deploying. Reviews the diff, tests, migrations, flags, dependencies and known risks, and answers go or no-go with reasons, watch signals and rollback steps.
 ---
 
-# Go Or Stop
+# Do Or Stop
 
 Scope: read the diff, the test results, the migrations, the feature flags, the dependency changes, the deploy config, and the known risks. Do not deploy, change production, or create a release until the user explicitly approves that step.
 
