@@ -1,13 +1,19 @@
-# My frontend skills
+# Skills
 
-One skill written here, `frontend`, linked into `~/.agents/skills` and updated the moment a file changes. The rest of this file is the installed collection I use with it, with sources.
+Personal AI-agent skills, junctioned into `~/.agents/skills` so they load with the installed collection. Folders here are linked, not copied; edits in place apply immediately.
+
+```
+frontend/          The one skill I authored - everything UI, in one place
+                   (see frontend/README.md)
+```
+
+The table below lists the installed skills I use alongside it, with sources where they are known.
 
 ## Mine
 
 | Skill | Covers | Source |
 | --- | --- | --- |
 | `frontend` | Brief, order of work, layout, loading/empty/error, reuse of parts and tokens, interface words, sidebar spec | This repo |
-| `frontend/components/buttons.md` | Primary and secondary button finishes, states, labels | This repo |
 
 ## Emil Kowalski, `animations.dev`
 
@@ -37,7 +43,7 @@ Source recorded in the skill file: license CC-BY-4.0, author Damir Sokolovsky, `
 
 `alignment`, `audit`, `color`, `deconstruct`, `defaults`, `frames`, `gather`, `keyboard`
 
-Same house style: numbered rule IDs, severity severities, "Rule | Count | Severity" reports, "Never Approve a file you did not read." Author and repo not recorded in any of these files. Likely the same author as `unslop` given the identical reporting format, but I could not verify this, so treat the attribution as unconfirmed.
+Same house style: numbered rule IDs, severities, "Rule | Count | Severity" reports, "Never Approve a file you did not read." Author and repo not recorded in any of these files. Likely the same author as `unslop` given the identical reporting format, but I could not verify this, so treat the attribution as unconfirmed.
 
 | Skill | Covers |
 | --- | --- |
@@ -74,7 +80,7 @@ Recorded in `~/.agents/.skill-lock.json`:
 
 ## Usage notes
 
-- `frontend` is mine and I use it for every page, but it deliberately defers to the others above instead of duplicating them: motion to `animate`, contrast to `color`, defaults to `defaults`, review to `jury` and `audit`.
+- `frontend` is mine and gets used for every page, but it deliberately defers to the others above instead of duplicating them: motion to `animate`, contrast to `color`, defaults to `defaults`, review to `jury` and `audit`.
 - Two installed skills were deleted as redundant: `copy` (replaced by the Words section of `frontend`) and `frontend-design` (replaced by `awwwards` + `unslop` + `frontend`).
 - Deleted refs you'll see elsewhere: `build-a-page`, `page-layout`, `loading-states`, `microcopy` were merged into `frontend`.
 
