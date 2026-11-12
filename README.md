@@ -20,14 +20,16 @@ My own skills are junctioned into `~/.agents/skills`, not copied. Below: what I 
 | `mobile-native` | The platform layer on phones | Emil Kowalski | [animations.dev](https://animations.dev) |
 | `emil-design-eng` | Emil's design engineering philosophy, condensed | Emil Kowalski | [animations.dev](https://animations.dev) |
 | `tailwind-design-system` | Tokens, components, responsive with Tailwind v4 | [wshobson](https://github.com/wshobson) | [github.com/wshobson/agents](https://github.com/wshobson/agents) |
-| `alignment` | Edges, gaps, radii, optical weight measured | Unknown (unverified) | Not published |
-| `audit` | Findings across the whole skill collection | Unknown (unverified) | Not published |
-| `color` | Contrast ratios, role tokens, dark mode | Unknown (unverified) | Not published |
-| `deconstruct` | Scrub-able timeline of an animation | Unknown (unverified) | Not published |
-| `defaults` | Scroll edges, surfaces, type, focus, forms | Unknown (unverified) | Not published |
-| `frames` | Throttled CPU trace of one interaction | Unknown (unverified) | Not published |
-| `gather` | Reference board before building | Unknown (unverified) | Not published |
-| `keyboard` | Keyboard-only walk of a page | Unknown (unverified) | Not published |
+| `alignment` | Edges, gaps, radii, optical weight measured | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `audit` | Findings across the whole skill collection | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `color` | Contrast ratios, role tokens, dark mode | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `deconstruct` | Scrub-able timeline of an animation | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `defaults` | Scroll edges, surfaces, type, focus, forms | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `frames` | Throttled CPU trace of one interaction | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `gather` | Reference board before building | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `keyboard` | Keyboard-only walk of a page | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `reuse` | Project parts first, then library, then platform, then custom | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
+| `viewports` | Renders a page at every width, breakpoint edges, short landscape phone, 200% text | [Raphael Salaja](https://github.com/raphaelsalaja) (MIT) | [skills.sh/raphaelsalaja/skills](https://www.skills.sh/raphaelsalaja/skills) |
 | `reanimate` | Clone a reference animation, verified frame by frame | Niaz Morshed (MIT) | Not published |
 
 The eight `alignment` through `keyboard` share one house style (numbered rule IDs, severities, "Rule | Count | Severity"). No author or repo is recorded in any of their files; `unslop` (Damir Sokolovsky) shares the same report format, so they may come from the same place, but I could not verify that.
