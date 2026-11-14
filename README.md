@@ -9,6 +9,8 @@ My own skills are junctioned into `~/.agents/skills`,
 | Skill | Covers | Author | Link |
 | --- | --- | --- | --- |
 | [`design`](skills/design/) | Brief, order of work, layout, loading/empty/error, reuse, words, sidebar, buttons | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
+| [`do-or-stop`](skills/do-or-stop/) | Go or no-go before a ship: diff, tests, migrations, flags, watch signals, rollback | [harsha007009](https://github.com/harsha007009) | [this repo](https://github.com/BeyondV0id/skills) |
+| [`bro`](skills/bro/) | `/bro` - re-explain the previous answer in plain language | [harsha007009](https://github.com/harsha007009) (MIT) | [this repo](https://github.com/BeyondV0id/skills) |
 | `awwwards` | Award-caliber sites from one line | [juliobsz](https://github.com/juliobsz) (MIT) | [github.com/juliobsz/skills](https://github.com/juliobsz/skills) |
 | `jury` | Scores a site like a jury would | [juliobsz](https://github.com/juliobsz) (MIT) | [github.com/juliobsz/skills](https://github.com/juliobsz/skills) |
 | `unslop` | Turns "AI slop" UI into designed UI | [Damir Sokolovsky](https://heydamir.design/unslop) ([@heydamir](https://x.com/heydamir), CC-BY-4.0) | [heydamir.design/unslop](https://heydamir.design/unslop) |
